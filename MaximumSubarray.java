@@ -13,6 +13,13 @@ public class MaximumSubarray {
             int element = S.nextInt();
             Array.add(element);
         }
+        //corporate strategies
+        //Decision science
+        //Industrial behaviour
+        //Emmerging issues
+        //Reengineering
+        //Data mining
+        //SME
 
         //set first element as max value and start sum;
         int sum = Array.get(0);
@@ -23,6 +30,5 @@ public class MaximumSubarray {
             maxSum = Math.max(maxSum, sum);
         }
         System.out.println("The Maximum Sum of subArray of Your Array is : " + maxSum);
-
     }
 }
